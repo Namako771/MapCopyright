@@ -7,6 +7,8 @@
 
 Quality written in 3 hours. Not a beautiful code.
 
+![Image](image/Image.png)
+
 ## Commands
 ```
 /art help
