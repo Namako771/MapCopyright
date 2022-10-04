@@ -1,7 +1,7 @@
 package dev.namako.mapcopyright;
 
 import dev.namako.mapcopyright.commands.CommandRegister;
-import dev.namako.mapcopyright.commands.artExecutor;
+import dev.namako.mapcopyright.commands.ArtExecutor;
 import dev.namako.mapcopyright.utils.PersistentDataContainerUtil;
 import org.bukkit.command.PluginCommand;
 import org.bukkit.entity.Player;
@@ -23,7 +23,7 @@ public final class MapCopyright extends JavaPlugin implements Listener {
     PluginManager pluginManager = getServer().getPluginManager();
     pluginManager.registerEvents(this, this);
     PluginCommand artCommand = getCommand("art");
-    artCommand.setExecutor(new artExecutor());
+    artCommand.setExecutor(new ArtExecutor());
     CommandRegister.register(this, artCommand);
     getLogger().info(String.format("Successfully enabled. (took %dms)", System.currentTimeMillis() - start));
   }
