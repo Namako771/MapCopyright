@@ -7,7 +7,7 @@
 
 Quality written in 3 hours. Not a beautiful code.
 
-![Image](image/image.png)
+![image](image/image.png)
 
 ## Commands
 ```
