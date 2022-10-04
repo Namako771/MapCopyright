@@ -1,0 +1,18 @@
+name: MapCopyright
+version: '${version}'
+main: dev.namako.mapcopyright.MapCopyright
+api-version: 1.16
+authors: [ Namako771 ]
+
+commands:
+  art:
+    permission: mapcopyright.command
+
+permissions:
+
+  mapcopyright.ignore:
+    description: User is able to ignore Copy Protection
+    default: false
+
+  mapcopyright.command:
+    default: true
