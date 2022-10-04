@@ -36,6 +36,6 @@ mapcopyright.command
 * Namako771
 
 ## License
-MapCopyright is licensed under the [MIT](https://en.wikipedia.org/wiki/MIT_License) license.
+MapCopyright is licensed under the [MIT](https://en.wikipedia.org/wiki/MIT_License).
 
 Copyright (c) 2022 Namako771
