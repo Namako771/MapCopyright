@@ -5,6 +5,8 @@
 **For people selling Map Art on large servers.**
 **Protected players are stored in ItemMeta with PersistentDataContainer.**
 
+Quality written in 3 hours. Not a beautiful code.
+
 ## Commands
 ```
 /art help
@@ -34,4 +36,6 @@ mapcopyright.command
 * Namako771
 
 ## License
-[MIT](https://en.wikipedia.org/wiki/MIT_License)
+MapCopyright is licensed under the [MIT](https://en.wikipedia.org/wiki/MIT_License) license.
+
+Copyright (c) 2022 Namako771
